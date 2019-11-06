@@ -84,7 +84,7 @@
                         <label for="input-default">기분</label>
                       </b-col>
                       <b-col cols="12">
-                        <b-form-select v-model="selected" :options="options1" placeholder="여행당시의 기분은?"></b-form-select>
+                        <b-form-select v-model="selected1" :options="options1" placeholder="여행당시의 기분은?"></b-form-select>
                       </b-col>
                     </b-row>
 
@@ -94,7 +94,7 @@
                         <label for="input-default">지역 선택</label>
                       </b-col>
                       <b-col cols="12">
-                        <b-form-select v-model="selected" :options="options2"></b-form-select>
+                        <b-form-select v-model="selected2" :options="options2"></b-form-select>
                       </b-col>
                     </b-row>
 
@@ -221,7 +221,8 @@ export default {
         tabCounter: 1,
         show: false,
 
-        selected: null,
+        selected1: null,
+        selected2: null,
         options1: [
             { value: null, text: '기분을 선택해주세요.', disabled: true },
             { value: 'angry', text: '화남' },
