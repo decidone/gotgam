@@ -1,0 +1,7 @@
+html, body {margin: 0; width: 100%; height: 100%; font-size: 14px;}
+* {box-sizing: border-box;}
+ul {padding: 0; margin: 0;}
+li {list-style: none;}
+	
+.wrap {max-width: 1024px; min-width: 320px;}
+body {padding-top: 113px; overflow-x: hidden;}

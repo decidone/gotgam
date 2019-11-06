@@ -1,2 +1,1 @@
-# gotgam
-Temporary
+# gotgam_pro
