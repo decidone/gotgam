@@ -45,6 +45,7 @@
 
 <script>
 import * as header from '../js/header.js';
+import dataManager from '@/util/data-manager.js';
 
 export default {
 	data() {
@@ -101,6 +102,7 @@ export default {
 		},
 		
 		logout: function (event) {
+			dataManager.clearData();
 			this.$http.get('/api/users/logout',
 				this.user
 			)
